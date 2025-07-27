@@ -11,7 +11,7 @@ const teamMembers = [
     role: "Senior Advocate & Founder",
     experience: "15+ Years",
     specialization: "Civil Law, Criminal Law, Property Disputes",
-    image: "https://www.vakeel-saab.in/assets/aboutalam-CaB-KjeH.jpg",
+    image: "https://i.ibb.co/Mktqg7mJ/aboutalam.jpg",
     email: "aftab8490@live.com",
     phone: "+91 9554505557",
     bio: "Leading legal expert with extensive experience in civil and criminal law. Known for his strategic approach and successful track record in complex legal matters.",

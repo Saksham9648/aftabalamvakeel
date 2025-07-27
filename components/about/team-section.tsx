@@ -41,7 +41,7 @@ const teamMembers = [
     role: "Junior Associate",
     experience: "7+ Years",
     specialization: "Property Law, Documentation",
-    image: "https://i.ibb.co/hFQfpSmq/4.jpg",
+    image: "https://i.ibb.co/QjCK9qLL/4.jpg",
     email: "admoidkhan@vakeelsaab.in",
     phone: "+91 9876543212",
     bio: "Expert in property law and legal documentation. Ensures all legal paperwork is handled with precision and attention to detail.",

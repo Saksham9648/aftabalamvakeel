@@ -58,19 +58,21 @@ export function Footer() {
             <div className="space-y-3 text-sm">
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-yellow-500" />
-                <span className="text-gray-300">+91 9876543210</span>
+                <span className="text-gray-300">+91 9554505557</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-yellow-500" />
-                <span className="text-gray-300">info@vakeelsaab.in</span>
+                <span className="text-gray-300">aftab8490@live.com</span>
               </div>
               <div className="flex items-start space-x-2">
                 <MapPin className="h-4 w-4 text-yellow-500 mt-0.5" />
-                <span className="text-gray-300">123 Legal Street, Law District, City - 123456</span>
+                <span className="text-gray-300">
+Law Office Of Aftab Alam Ansari Advocate
+Vibhuti Khand, Gomti Nagar, Lucknow, Uttar Pradesh 226010</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Clock className="h-4 w-4 text-yellow-500" />
-                <span className="text-gray-300">Mon-Sat: 9AM-6PM</span>
+                <span className="text-gray-300">Mon-Sat: 10:00 AM - 7:00 PM</span>
               </div>
             </div>
           </div>

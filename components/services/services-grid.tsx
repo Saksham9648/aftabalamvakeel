@@ -4,7 +4,22 @@ import { motion } from "framer-motion"
 import { useInView } from "framer-motion"
 import { useRef } from "react"
 import { Button } from "@/components/ui/button"
-import { Scale, Shield, Home, Heart, Building, FileText, Users, Briefcase } from "lucide-react"
+import {
+  Scale,
+  Shield,
+  Home,
+  Heart,
+  Building,
+  FileText,
+  Users,
+  Briefcase,
+  Globe,
+  Lock,
+  BrainCircuit,
+  Landmark,
+  Gavel,
+  UserCheck
+} from "lucide-react"
 
 const services = [
   {
@@ -83,6 +98,46 @@ const services = [
     ],
     color: "bg-teal-100 text-teal-800",
   },
+  {
+    icon: Lock,
+    title: "Cyber Law",
+    description:
+      "Legal services related to cyber crimes, data breaches, online frauds, social media misuse, and IT Act compliance. Stay protected in the digital world.",
+    features: ["Cyber Crime Cases", "Data Breach Action", "Online Fraud", "IT Act Compliance", "Digital Evidence"],
+    color: "bg-cyan-100 text-cyan-800",
+  },
+  {
+    icon: BrainCircuit,
+    title: "Intellectual Property Law",
+    description:
+      "Protect your creative works, innovations, and brands. We offer services for trademark registration, copyrights, patents, and IP infringement litigation.",
+    features: ["Trademark Registration", "Copyrights", "Patent Filing", "Design Protection", "IP Litigation"],
+    color: "bg-orange-100 text-orange-800",
+  },
+  {
+    icon: Globe,
+    title: "Environmental Protection Law",
+    description:
+      "Legal assistance with environmental regulations, pollution control laws, sustainability compliance, and forest and wildlife conservation matters.",
+    features: ["Pollution Control Cases", "Environmental Clearances", "Waste Management Laws", "EIA Reports", "Wildlife Protection"],
+    color: "bg-lime-100 text-lime-800",
+  },
+  {
+    icon: UserCheck,
+    title: "Human Rights Law",
+    description:
+      "Defending fundamental rights and liberties including discrimination, unlawful detention, refugee protection, and access to justice for all.",
+    features: ["Discrimination Cases", "Custodial Violence", "Refugee Rights", "Access to Justice", "Minority Rights"],
+    color: "bg-rose-100 text-rose-800",
+  },
+  {
+    icon: Gavel,
+    title: "Arbitration & Mediation",
+    description:
+      "Alternative dispute resolution services through arbitration, mediation, and conciliation. Resolve disputes efficiently and amicably without litigation.",
+    features: ["Commercial Arbitration", "Family Mediation", "Conciliation Proceedings", "Enforcement of Awards", "Pre-litigation Settlement"],
+    color: "bg-gray-100 text-gray-800",
+  },
 ]
 
 export function ServicesGrid() {
@@ -112,9 +167,7 @@ export function ServicesGrid() {
               className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
             >
               <div className="flex items-start space-x-6">
-                <div
-                  className={`w-16 h-16 rounded-full ${service.color} flex items-center justify-center flex-shrink-0`}
-                >
+                <div className={`w-16 h-16 rounded-full ${service.color} flex items-center justify-center flex-shrink-0`}>
                   <service.icon className="h-8 w-8" />
                 </div>
 

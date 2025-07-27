@@ -7,28 +7,28 @@ import { Star, Quote } from "lucide-react"
 
 const testimonials = [
   {
-    name: "Rajesh Kumar",
-    role: "Business Owner",
+    name: "Roli Mehrotra",
+    role: "Client",
     content:
-      "Aftab Alam Ansari provided exceptional legal guidance for my property dispute. His expertise and dedication helped me win the case. Highly recommended!",
+      "Hi, I am Roli Mehrotra. My Matrimonial Dispute was resolved by Aftab Sir in 06 Months. Thanks to Aftab Sir 🙏🏻",
     rating: 5,
-    image: "/placeholder.svg?height=80&width=80",
+    image: "https://i.ibb.co/WvZGSXkh/IMG-20250130-WA0040.jpg",
   },
   {
-    name: "Priya Sharma",
-    role: "Software Engineer",
+    name: "Srikant Verma",
+    role: "Client",
     content:
-      "Professional, knowledgeable, and compassionate. Mr. Ansari handled my family law matter with great care and achieved the best possible outcome.",
+      "Competent lawyer with professional approach to his work and client. My experience with him in a civil suit was quite satisfactory. He understands and adjusts himself for his clients requirements and believes in results.",
     rating: 5,
-    image: "/placeholder.svg?height=80&width=80",
+    image: "https://i.ibb.co/Lzqr2Qxd/IMG-20250201-WA0001.jpg",
   },
   {
-    name: "Amit Patel",
-    role: "Entrepreneur",
+    name: "Mumtaz",
+    role: "Client",
     content:
-      "Excellent legal services for my corporate matters. The team is responsive, thorough, and delivers results. Thank you for your outstanding support!",
+      "Hi, I am Mumtaz. My Civil Dispute Of Arbitration and Conciliation Matter was Resolved By Aftab Sir. Very Thanks to Aftab Sir.",
     rating: 5,
-    image: "/placeholder.svg?height=80&width=80",
+    image: "https://i.ibb.co/dsZTBbWM/IMG-20250130-WA0041.jpg",
   },
 ]
 

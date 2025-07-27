@@ -21,7 +21,7 @@ const teamMembers = [
     role: "Junior Associate",
     experience: "8+ Years",
     specialization: "Family Law, Corporate Law",
-    image: "https://i.ibb.co/JwQYMYp8/2.jpg",
+    image: "https://i.ibb.co/YFzFS1VJ/2.jpg",
     email: "saifaliansari@vakeelsaab.in",
     phone: "+91 9876543211",
     bio: "Specialized in family law and corporate legal matters. Dedicated to providing compassionate and effective legal solutions for clients.",

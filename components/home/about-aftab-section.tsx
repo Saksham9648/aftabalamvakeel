@@ -32,7 +32,7 @@ export function AboutAftabSection() {
           >
             <div className="relative">
               <img
-                src="/placeholder.svg?height=500&width=400"
+                src="https://advocateaftabalam.com/images/aftab2.jpg"
                 alt="Aftab Alam Ansari"
                 className="w-full h-auto rounded-2xl shadow-2xl"
               />
